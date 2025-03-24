@@ -51,7 +51,7 @@ Safer than eval(): eval() can access the full scope and execute arbitrary JavaSc
 Restricted Scope: Function() creates a function in its own scope, limiting potential security vulnerabilities.
 
 Edge Case Handling:
-If the input is invalid (e.g., 5++6), an error occurs.
+If the input is invalid (e.g., 5++6), an error occurs.``
 
 The try...catch block prevents crashes and shows an alert for invalid input.
 */
